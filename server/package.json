@@ -1,0 +1,27 @@
+{
+  "name": "plantsome-assessment-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plantsome/plantsome-assessment.git"
+  },
+  "author": "Noury Janse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plantsome/plantsome-assessment/issues"
+  },
+  "homepage": "https://github.com/Plantsome/plantsome-assessment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

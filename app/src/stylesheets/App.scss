@@ -1,0 +1,30 @@
+// PLANTSOME COLORS
+$pink: #F6D9C3;
+$blue: #BEDCDB;
+$gray: #DBDDDB;
+$gray--light: #F2F0EF;
+$green--light: #F2F0EF;
+$green: #627B47;
+$black: #1D1D1B;
+
+@import "Allplants";
+@import "FormContainer";
+@import "Questions";
+@import "Button";
+
+body {
+    color: $green;
+    background-color: $green--light;
+    margin: 0 20vw;
+}
+
+.App-logo {
+    width: 180px;
+    height: auto;
+}
+
+.App-header {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}

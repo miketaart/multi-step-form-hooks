@@ -1,0 +1,27 @@
+.Question {
+  display: block;
+  position: relative;
+  top: 25%;
+
+  label,
+  select {
+    display: block;
+  }
+
+  label {
+    font-size: 48px;
+  }
+
+
+  select {
+    font-size: 144px;
+    margin-bottom: 25vh;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+}

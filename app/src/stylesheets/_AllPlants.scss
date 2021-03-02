@@ -1,0 +1,39 @@
+.AllPlants {
+  display: flex; 
+  flex-direction: column;
+
+  header {
+    height: 10vh;
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 10vh;
+  }
+
+  .Card__Container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .Card {
+      width: 240px;
+      margin-right: 24px;
+      margin-bottom: 24px;
+    }
+  }
+
+/*Custom card styling*/
+  .MuiCardContent-root {
+    h2 {
+      color: $green;
+    }
+
+    p {
+      color: $black;
+    }
+  }
+
+  .MuiButton-textPrimary {
+    color: $green;
+  }
+/* Custom card styling*/
+}
